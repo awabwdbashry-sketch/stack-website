@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>STACK — ابنِها طبقة فوق طبقة</title>
+<meta name="description" content="STACK. تجربة رقمية فاخرة حول بناء الدبل ستاك برجر، طبقة فوق طبقة، مع كل تمريرة سكرول.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ LOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__brand en">STACK</div>
+    <div class="loader__bar-track">
+      <div class="loader__bar-fill"></div>
+    </div>
+    <div class="loader__pct en">0%</div>
+    <div class="loader__label en">Preparing the build</div>
+  </div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__label"></span>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav">
+    <div class="nav__brand en">STACK<span>.</span></div>
+
+    <ul class="nav__links">
+      <li><a href="#top">الرئيسية</a></li>
+      <li><a href="#build">البناء</a></li>
+      <li><a href="#ingredients">المكونات</a></li>
+      <li><a href="#story">القصة</a></li>
+    </ul>
+
+    <a href="#final" class="nav__cta" data-cursor="open">اطلب الآن</a>
+
+    <button class="nav__toggle" aria-label="افتح القائمة">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu">
+    <a href="#top">الرئيسية</a>
+    <a href="#build">البناء</a>
+    <a href="#ingredients">المكونات</a>
+    <a href="#story">القصة</a>
+    <a href="#final" class="nav__cta">اطلب الآن</a>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__text">
+        <p class="hero__eyebrow en">STACK — DOUBLE PATTY</p>
+        <h1 class="hero__headline">ابنِها طبقة فوق طبقة.</h1>
+        <p class="hero__sub">كل طبقة تصنع الفرق.</p>
+
+        <button class="hero__scroll" data-cursor="build">
+          <span class="hero__scroll-rail" aria-hidden="true"></span>
+          <span class="hero__scroll-label">ابدأ البناء</span>
+        </button>
+      </div>
+
+      <div class="hero__visual" data-cursor="build">
+        <div class="hero__ring" aria-hidden="true"></div>
+        <img src="assets/images/layers/layer-01.png" alt="القاعدة — خبز STACK الطازج، نقطة البداية للبناء" width="1376" height="768">
+      </div>
+
+      <span class="hero__number en">01 / 10 — BASE</span>
+    </section>
+
+    <!-- ============ BUILD INTRO ============ -->
+    <section class="build-intro">
+      <span class="section-tag en">THE BUILD</span>
+      <h2>عشر طبقات. قرار واحد في كل مرة.</h2>
+      <p>مرّر للأسفل، وشاهد الدبل ستاك يتشكّل أمامك — طبقة تلتحم بأخرى، دون أن تفقد أي طبقة سابقة مكانها. مرّر للأعلى، وستُفكَّك بنفس الدقة.</p>
+    </section>
+
+    <!-- ============ BUILD SEQUENCE ============ -->
+    <section class="build" id="build">
+      <div class="build__stage">
+
+        <span class="build__hint en">SCROLL TO BUILD</span>
+
+        <div class="build__frame-wrap">
+
+          <div class="build__centerline" aria-hidden="true"></div>
+
+          <div class="build__layer build__layer--01" data-dir="top" data-stage="0">
+            <img src="assets/images/layers/layer-01.png" alt="القاعدة" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--02" data-dir="right" data-stage="1">
+            <img src="assets/images/layers/layer-02.png" alt="اللحم الأول" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--03" data-dir="left" data-stage="2">
+            <img src="assets/images/layers/layer-03.png" alt="الجبنة الأولى" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--04" data-dir="right" data-stage="3">
+            <img src="assets/images/layers/layer-04.png" alt="اللحم الثاني" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--05" data-dir="left" data-stage="4">
+            <img src="assets/images/layers/layer-05.png" alt="الجبنة الثانية" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--06" data-dir="right" data-stage="5">
+            <img src="assets/images/layers/layer-06.png" alt="الصوص" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--07" data-dir="left" data-stage="6">
+            <img src="assets/images/layers/layer-07.png" alt="الخس" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--08" data-dir="right" data-stage="7">
+            <img src="assets/images/layers/layer-08.png" alt="الطماطم والمخلل" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--09" data-dir="left" data-stage="8">
+            <img src="assets/images/layers/layer-09.png" alt="البصل" width="1376" height="768">
+          </div>
+          <div class="build__layer build__layer--10" data-dir="top" data-stage="9">
+            <img src="assets/images/layers/layer-10.png" alt="القمة" width="1376" height="768">
+          </div>
+
+        </div>
+
+        <div class="build__readout">
+          <div class="build__count en"><span id="stage-current">01</span><small> / 10</small></div>
+          <div class="build__ingredient">
+            <span class="build__ingredient-label en">Layer</span>
+            <span class="build__ingredient-name" id="stage-name">القاعدة</span>
+          </div>
+        </div>
+
+        <div class="build__progress" aria-hidden="true">
+          <div class="build__progress-tick is-active"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+          <div class="build__progress-tick"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ BRAND STATEMENT ============ -->
+    <section class="statement">
+      <h2 class="statement__line">مش مجرد برجر.</h2>
+      <h2 class="statement__line statement__line--accent">إنه توازن محسوب.</h2>
+    </section>
+
+    <!-- ============ INGREDIENT EDITORIAL ============ -->
+    <section class="editorial" id="ingredients">
+
+      <div class="ed-row ed-row--beef">
+        <div class="ed-media">
+          <img src="assets/images/gallery/gal-01-beef.jpg" alt="قطعة لحم مشوية على الفحم" loading="lazy" width="1376" height="768">
+        </div>
+        <div class="ed-copy">
+          <span class="section-tag en">Layer 01 / 04 — Beef</span>
+          <h3>لحم مختار.</h3>
+          <p>يُشوى حتى تتشكّل قشرة داكنة من الخارج، وتبقى الطبقة الداخلية طرية. هذا هو الأساس الذي يُبنى عليه كل شيء آخر.</p>
+        </div>
+      </div>
+
+      <div class="ed-row ed-row--cheese">
+        <div class="ed-copy">
+          <span class="section-tag en">Layer 02 / 04 — Cheese</span>
+          <h3>جبنة تذوب كما يجب.</h3>
+          <p>لا تسبق اللحم، ولا تتأخر عنه. توقيت الذوبان جزء من التصميم، لا مصادفة.</p>
+        </div>
+        <div class="ed-media">
+          <img src="assets/images/gallery/gal-02-cheese.jpg" alt="جبنة ذائبة فوق قطعة اللحم" loading="lazy" width="1376" height="768">
+        </div>
+      </div>
+
+      <div class="ed-row ed-row--ingredients">
+        <div class="ed-copy">
+          <span class="section-tag en">Layer 03 / 04 — Elements</span>
+          <h3>كل طبقة لها مكانها.</h3>
+          <p>خس، طماطم، مخلل، بصل، صوص — كل عنصر يُختار لموقعه في التركيب، لا لحضوره وحده.</p>
+        </div>
+        <div class="ed-media">
+          <img src="assets/images/gallery/gal-03-ingredients.jpg" alt="عناصر STACK مرتّبة قبل البناء" loading="lazy" width="1376" height="768">
+        </div>
+      </div>
+
+      <div class="ed-row ed-row--burger">
+        <div class="ed-copy">
+          <span class="section-tag en">Layer 04 / 04 — Whole</span>
+          <h3>خبز محمّص في اللحظة المناسبة.</h3>
+          <p>الطبقة الأخيرة التي تُغلق البناء، وتحمل كل ما تحتها.</p>
+        </div>
+        <div class="ed-media">
+          <img src="assets/images/gallery/gal-04-burger.jpg" alt="الدبل ستاك مكتملاً بجانب البطاطا والصوص" loading="lazy" width="1376" height="768">
+        </div>
+      </div>
+
+      <div class="ed-row ed-row--ritual" id="story">
+        <div class="ed-media">
+          <img src="assets/images/gallery/gal-05-ritual.jpg" alt="الدبل ستاك في لحظة القضمة الأولى" loading="lazy" width="1376" height="768">
+        </div>
+        <div class="ed-copy">
+          <span class="section-tag en">The Ritual</span>
+          <h3>البناء انتهى. الطقس يبدأ الآن.</h3>
+          <p>عشر طبقات، قرار بعد قرار، حتى وصلت إلى هذه اللحظة. الآن، الدور عليك.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ FINAL REVEAL ============ -->
+    <section class="reveal" id="final">
+      <div class="reveal__media">
+        <img src="assets/images/gallery/gal-04-burger.jpg" alt="الدبل ستاك مكتملاً — STACK" loading="lazy" width="1376" height="768">
+      </div>
+      <div class="reveal__scrim" aria-hidden="true"></div>
+
+      <div class="reveal__content">
+        <span class="section-tag reveal__tag en">Complete</span>
+        <h2 class="reveal__headline">اكتمل الـ STACK.</h2>
+        <p class="reveal__sub">والآن... خذ قضمتك.</p>
+        <button class="reveal__cta" data-cursor="open">اطلب الآن</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__brand en">STACK</div>
+    <div class="footer__meta en">DOUBLE STACK — BUILT LAYER BY LAYER</div>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/sequence.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
