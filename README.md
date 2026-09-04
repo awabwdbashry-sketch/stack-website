@@ -98,7 +98,7 @@ index.html
 
 ## 👨‍💻 المطور
 
-**Awab Wd Bashry**
+**Awab Bashary | AwabBuilds**
 
 ---
 
@@ -204,4 +204,4 @@ STACK was created as a **Creative Web Experience** demonstrating how a simple pr
 
 ## 👨‍💻 Developer
 
-**Awab Wd Bashry**
+**Awab Bashary | AwabBuilds**
